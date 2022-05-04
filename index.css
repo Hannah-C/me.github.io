@@ -16,7 +16,7 @@ Will need to implement slightly differently.
 */
 
 .lineart img.image-hover {
-    position: sticky;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
