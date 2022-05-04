@@ -2,12 +2,21 @@
     position: fixed;
     bottom: 0px;
     left: 0px;
-    height: 90%;
     display: flex;
 }
 
+/*
+I wanted .lineart {position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 90%;
+    display: flex;
+} however it is bugging with the hover function.
+Will need to implement slightly differently.
+*/
+
 .lineart img.image-hover {
-    position: absolute;
+    position: sticky;
     top: 0;
     right: 0;
     left: 0;
