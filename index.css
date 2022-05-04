@@ -16,7 +16,7 @@
     bottom: 0;
     object-fit: contain;
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity 0.3s;
   }
   .lineart:hover img.image-hover {
     opacity: 1;
