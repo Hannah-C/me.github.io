@@ -35,11 +35,12 @@ const HeaderSection = () => {
             Welcome to my portfolio website
           </p>
           <div>
-            <Link href="mailto:choihannah2003@gmail.com" passHref={true}>
+            <Link href="https://github.com/Hannah-C" passHref={true}>
               <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via -purple-500 to-pink-500 hover:bg-slate-200 text-white">
-                Hire Me
+                Github
               </button>
-
+            </Link>
+            <Link href="mailto:choihannah2003@gmail.com" passHref={true}>
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
                 <span className="block bg-hannahs-colour hover:bg-slate-800 rounded-full px-5 py-2">
                   Request CV
