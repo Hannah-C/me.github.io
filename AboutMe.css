@@ -1,0 +1,49 @@
+.instagram-media {
+    z-index: 2;
+}
+
+.props {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    z-index: 0;
+}
+
+.imgprops {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.50;
+    z-index: 0;
+}
+
+.instagram {
+    z-index: 1;
+}
+
+.lineart {
+    display: flex;
+    justify-content: left;
+    position: sticky;
+    top: 1em;
+    left: 1em;
+    width: 130px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2cm;
+}
+
+.resize {
+    height: 300px;
+    max-width: 100%;
+}
+
+.buttonprop {
+    background-color: transparent;
+    border: none;
+}
+
+.above {
+    z-index: 5;
+}
