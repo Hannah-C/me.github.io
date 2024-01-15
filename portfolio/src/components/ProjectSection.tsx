@@ -10,8 +10,8 @@ const projectsData = [
     description: "Responsive Portfolio Website using Next and Typescript. Constantly being improved! Upcoming feature: email contacting via website with resend api.",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Hannah-C/Hannah-C.github.io",
-    previewUrl: "https://github.com/Hannah-C/Hannah-C.github.io",
+    gitUrl: "https://github.com/Hannah-C/me.github.io",
+    previewUrl: "https://github.com/Hannah-C/me.github.io",
   },
   {
     id: 2,
@@ -46,8 +46,8 @@ const projectsData = [
     description: "Created Using basic html and css while playing around with hovering features.",
     image: "/images/projects/me.png",
     tag: ["All", "Web", "mobile"],
-    gitUrl: "https://github.com/Hannah-C/me.github.io",
-    previewUrl: "https://hannah-c.vercel.app/",
+    gitUrl: "https://github.com/Hannah-C/Hannah-C.github.io",
+    previewUrl: "https://github.com/Hannah-C/Hannah-C.github.io",
   },
 ];
 
