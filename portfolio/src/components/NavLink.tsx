@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const NavLink = ({ href, title }: {href:string, title:string}) => {
+const NavLink = ({ href, title }) => {
   return (
     <Link
       href={href}

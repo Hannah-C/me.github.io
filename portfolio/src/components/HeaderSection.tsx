@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 const HeaderSection = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12 flex items-center">
-        <div className="col-span-7 place-self-left text-center sm:text-left">
+      <div className="grid grid-cols-1 sm:grid-cols-12">
+        <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
               Hello, I'm{" "}
@@ -45,7 +45,7 @@ const HeaderSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-hannahs-colour-2 w-[250px] h-[250px] relative lg:w-[350px] lg:h-[350px]">
+          <div className="rounded-full bg-hannahs-colour-2 w-[250px] h-[250px] relative lg:w-[400px] lg:h-[400px]">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
